@@ -1,7 +1,7 @@
 <html>
 <head>
-<h1>4n4lDetector</h1>
-<h2><a href="http://www.enelpc.com/p/4n4ldetector.html">Advanced static analysis tool</a></h2>
+<h1><a href="http://www.enelpc.com/p/4n4ldetector.html">4n4lDetector</a></h1>
+<h2>Advanced static analysis tool</h2>
 </head>
   <body>
 4n4lDetector is an analysis tool for Microsoft Windows executable files, libraries, drivers and mdumps for x86 and x64. As of v1.8 an extended use for analyzing anomalies in Linux ELF executables was also included. Its main objective is to collect the necessary information to facilitate the identification of malicious code inside the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.<br>
