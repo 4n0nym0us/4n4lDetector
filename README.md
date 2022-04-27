@@ -7,8 +7,6 @@
 
 <h3>Some Images:</h3>
     
-![image](https://user-images.githubusercontent.com/76454196/165564802-70a5da92-693e-44b3-8b7a-549730fa4931.png)
-    <br>
 ![aEhI](https://user-images.githubusercontent.com/76454196/165567354-124a64e9-d6b7-445c-9fb7-d2855490b2ef.png)
     <br>
 ![RULES](https://user-images.githubusercontent.com/76454196/165567392-43a4393f-09e1-4de7-bf5c-85fafeb5718c.png)
