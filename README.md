@@ -6,11 +6,11 @@
 4n4lDetector is an analysis tool for Microsoft Windows executable files, libraries, drivers and mdumps for x86 and x64. As of v1.8 an extended use for analyzing anomalies in Linux ELF executables was also included. Its main objective is to collect the necessary information to facilitate the identification of malicious code inside the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.
 
 <h3>Some Images:</h3>
-    
+
+![RULES](https://user-images.githubusercontent.com/76454196/165567392-43a4393f-09e1-4de7-bf5c-85fafeb5718c.png)    
+        <br>
 ![aEhI](https://user-images.githubusercontent.com/76454196/165567354-124a64e9-d6b7-445c-9fb7-d2855490b2ef.png)
-    <br>
-![RULES](https://user-images.githubusercontent.com/76454196/165567392-43a4393f-09e1-4de7-bf5c-85fafeb5718c.png)
- 
+
 <h3>v1.9</h3>
   [+] Included a modifiable dictionary of wildcard rules for the first 25 bytes of the EP, with over 3.700 compiler and packer detection lines.<br>
   [+] Details and settings in the interface.<br>
