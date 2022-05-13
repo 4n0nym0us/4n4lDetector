@@ -1,6 +1,7 @@
 <html>
 <head>
-<h1><a href="http://www.enelpc.com/p/4n4ldetector.html">4n4lDetector</a></h1></head>
+<img src="https://user-images.githubusercontent.com/76454196/168347380-fc575373-40d8-4e7d-b755-7167ef23fe98.jpg"</img>
+</head>
 <h2>Advanced static analysis tool</h2>
 <body>
 4n4lDetector is an analysis tool for Microsoft Windows executable files, libraries, drivers and mdumps for x86 and x64. As of v1.8 an extended use for analyzing anomalies in Linux ELF executables was also included. Its main objective is to collect the necessary information to facilitate the identification of malicious code inside the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.
@@ -10,6 +11,20 @@
 ![RULES](https://user-images.githubusercontent.com/76454196/165567392-43a4393f-09e1-4de7-bf5c-85fafeb5718c.png)    
         <br>
 ![aEhI](https://user-images.githubusercontent.com/76454196/165567354-124a64e9-d6b7-445c-9fb7-d2855490b2ef.png)
+  
+  <h3>v2.0</h3>
+  [+] From the command line by default and without the need to use any parameter, the files will be analyzed by opening the graphical interface as if "-GUI" is used.<br>
+  [+] Updated Detect It Easy "DIE" application database included for all file types.<br>
+  [+] Included the entropy analysis of the analyzed file in the "Extra 4n4lysis" section.<br>
+  [+] Drag and add file options are now blocked while performing a scan.<br>
+  [+] ImpHash calculation included (x86/x64).<br>
+  [+] Analyze the assembled code for x64 binaries with Capstone Disassembler.<br>
+  [+] The extraction is extended to 40 bytes of the Entry Point, improving the detections with "EPRules" (x86/x64).<br>
+  [+] The TimeDateStamp field now defaults to hexadecimal.<br>
+  [+] Fixed Epoch conversion failing for some TimeDateStamp.<br>
+  [+] Raw Entry Point detection for all x64 binaries.<br>
+  [+] Improved the extraction of information from the XML resource for the UAC execution level.<br>
+  [+] Improved the reading of the characteristics field in x64 binaries to identify EXE/DLL.<br>
 
 <h3>v1.9</h3>
   [+] Included a modifiable dictionary of wildcard rules for the first 25 bytes of the EP, with over 3.700 compiler and packer detection lines.<br>
@@ -112,5 +127,6 @@
        -> 4n4lDetector.exe Path\App.exe -GUI<br>
        -> 4n4lDetector.exe Path\App.exe -TXT<br>
        -> 4n4lDetector.exe Path\App.exe -GREMOVE (Deletion of the binary after its analysis)<br>
+        <h2><a href="http://www.enelpc.com/p/4n4ldetector.html">Go to the site!</a></h2>
   </body>
 </html>
