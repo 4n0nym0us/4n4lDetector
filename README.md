@@ -25,7 +25,7 @@
          &nbsp;&nbsp;&nbsp;-> Anti-analysis virtual machine<br>  
          &nbsp;&nbsp;&nbsp;-> Stealth<br>  
          &nbsp;&nbsp;&nbsp;-> Execution<br>  
-         &nbsp;&nbsp;&nbsp;-> anti virus<br>  
+         &nbsp;&nbsp;&nbsp;-> Antivirus<br>  
          &nbsp;&nbsp;&nbsp;-> Privileges<br>  
          &nbsp;&nbsp;&nbsp;-> Keyboard keys<br>  
          &nbsp;&nbsp;&nbsp;-> WMI executions<br>  
