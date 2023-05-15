@@ -14,7 +14,25 @@
 ![RULES](https://user-images.githubusercontent.com/76454196/165567392-43a4393f-09e1-4de7-bf5c-85fafeb5718c.png)    
         <br>
 ![aEhI](https://user-images.githubusercontent.com/76454196/165567354-124a64e9-d6b7-445c-9fb7-d2855490b2ef.png)
-<br>  
+<br>
+<h3>v2.3</h3>
+   [+] Added a new functionality that allows choosing the sizes of the files to analyze.<br>
+        &nbsp;&nbsp;&nbsp;-> Analysis times are higher with settings well above the default in the MaxFileLen(MB) field.<br>
+        &nbsp;&nbsp;&nbsp;-> It is recommended to disable options in files larger than usual.<br>
+   [+] The process runs with high priority during the scan time and while some demanding tasks are performed.<br>
+   [+] Fixed a bug that could lead to an unexpected application crash after parsing a malformed executable type.<br>
+   [+] Fixed a bug that could lead to an unexpected application crash after parsing a malformed header type.<br>
+   [+] Unlimited the number of characters shown in the analysis viewer by default, affecting the web view and the analysis from the console.<br>
+   [+] Unlimited the number of characters shown in the HTML code viewer from the web view.<br>
+   [+] The extraction of functions in the export table is now increased from 130 to 400 in the carving section.<br>
+   [+] Fixed a bug that could hang the program during the extraction of the name of the sections.<br>
+   [+] The use of the Timers of the tool during the analysis time was optimized.<br>
+   [+] Added multitude of detections in Unicode format for the "4n4l.rules" rules file.<br>
+   [+] Fixed a bug that could disable the Export Table button for some libraries.<br>
+   [+] Fixed a bug that could generate a lot of junk characters after parsing certain UPX files.<br>
+   [+] Optimizations have been made with the application's memory usage.<br>
+   [+] The program bar now shows the number of characters in the analysis report.<br>
+        
 <h3>v2.2</h3>
      [+] Correction of slight visual defects in the interface.<br>  
      [+] Correction in the URL extraction module.<br>  
