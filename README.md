@@ -15,6 +15,18 @@
         <br>
 ![aEhI](https://user-images.githubusercontent.com/76454196/165567354-124a64e9-d6b7-445c-9fb7-d2855490b2ef.png)
 <br>
+        
+<h3>v2.4</h3>        
+   [+] Unlimited the number of characters shown in the String viewer, also affecting the Export and Import Table.<br>
+   [+] Optimizations have been made prioritizing the stability of the tool at the expense of the minimum loss of speed during the analysis.<br>
+   [+] Added extraction of the SYSTEM branch of the registry.<br>
+   [+] The Strings tool has been optimized, having a very positive impact on its speed.<br>
+   [+] Expanded the Strings tool's collection of new strings.<br>
+   [+] Added a new string search module called Inlligent Strings. (Search for keywords just like a malware analyst would)<br>
+        &nbsp;&nbsp;&nbsp;-> Included a cleanup function for routes and internet addresses that affects this module.<br>
+   [+] Included a time control after finishing the analysis in the title of the main form.<br>
+   [+] Blocked the option to drag samples over the Web code avoiding the option to execute.<br>
+        
 <h3>v2.3</h3>
    [+] Added a new functionality that allows choosing the sizes of the files to analyze.<br>
         &nbsp;&nbsp;&nbsp;-> Analysis times are higher with settings well above the default in the MaxFileLen(MB) field.<br>
