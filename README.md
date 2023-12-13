@@ -7,6 +7,9 @@
 4n4lDetector is an analysis tool for Microsoft Windows executable files, libraries, drivers and mdumps for x86 and x64. As of v1.8 an extended use for analyzing anomalies in Linux ELF executables was also included. Its main objective is to collect the necessary information to facilitate the identification of malicious code inside the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.
 <h2><a href="http://www.enelpc.com/p/4n4ldetector.html">Go to the site!</a></h2>
 <h3>Some Images:</h3>
+
+![5](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/9742bbe8-bab5-49e7-9345-1d26b27b4dd9)
+    <br>
         
  ![RESOURCES](https://user-images.githubusercontent.com/76454196/174343536-6832d5c2-b9b0-4fac-afc6-c31e9bc1617b.png)
     <br>
@@ -15,6 +18,27 @@
         <br>
 ![aEhI](https://user-images.githubusercontent.com/76454196/165567354-124a64e9-d6b7-445c-9fb7-d2855490b2ef.png)
 <br>
+
+<h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
+
+<h3>v2.5</h3> 
+     [+] Greater effectiveness and detection of new syntaxes in the "Inlligent Strings" module and in the "Strings" functionality.<br>
+     [+] The analysis tab stores the statistical information in the form title of the current session.<br>
+     [+] A warning is included to detect strings that are too long for the search engine and the singular is assigned for a match.<br>
+     [+] The entire Detect It Easy “DIE” database was updated with the new rules as of December 5, 2023.<br>
+     [+] Added new rules to the "4n4l.rules" file.<br>
+     [+] The add file button has been removed from the main interface, now the graphical interface will only have the possibility of dragging files to analyze them.<br>
+     [+] Included a new option to parse the content of "LNK" shortcuts with or without their default extension.<br>
+     [+] Fixed a cosmetic bug affecting some high-resolution UltraWide displays.<br>
+     [+] Improved integration of the window resizing module for Windows 7, 10 and 11 operating systems.<br>
+     [+] Included a quick access button to the default "Show Options" view in case the window has been resized.<br>
+     [+] The "Show Options" button now changes to "Hide Options" based on the size of the main form and when the button is activated.<br>
+     [+] The app now opens options on every startup to keep them in view during use.<br>
+     [+] The analysis progress changes the color of the modules name, within the options section in real time as it progresses.<br>
+         &nbsp;&nbsp;&nbsp;-> Red indicates the module in which the tool is being analyzed.<br>
+         &nbsp;&nbsp;&nbsp;-> Yellow indicates the end of the analysis of that module.<br>
+         &nbsp;&nbsp;&nbsp;-> White indicates that the tool has not analyzed with that module.<br>
+     [+] Please don't touch the red button or Beelzebub will come, Thank you.<br>
         
 <h3>v2.4</h3>        
    [+] Unlimited the number of characters shown in the String viewer, also affecting the Export and Import Table.<br>
