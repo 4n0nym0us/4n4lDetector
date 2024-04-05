@@ -8,6 +8,13 @@
 <h2><a href="http://www.enelpc.com/p/4n4ldetector.html">Go to the site!</a></h2>
 <h3>Some Images:</h3>
 
+![1](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/e07ff8a6-eaaa-4783-a230-2ec41518f30b)
+<br>
+
+![2](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/cdb55872-b502-480c-82c6-ece6245ade9c)
+
+<br>
+
 ![5](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/9742bbe8-bab5-49e7-9345-1d26b27b4dd9)
     <br>
         
@@ -20,6 +27,45 @@
 <br>
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
+
+<h3>v2.6</h3> 
+  [+] Ha sido inlcuido un nuevo formulario con acceso a un Area Online.<br>
+         &nbsp;&nbsp;&nbsp;->  El botón "[Online Area]" abre un formulario con notificaciones en tiempo real que pueden ser modificadas por mí en cualquier momento.<br>
+         &nbsp;&nbsp;&nbsp;-> Es posible responder a los contenidos de las notificaciones a través del botón "Reply" mediante correo electrónico.<br>
+         &nbsp;&nbsp;&nbsp;-> El contenido de las notificaciones será meramente informativo sobre el estado de desarrollo de la herramienta o alertas de malware actuales.<br>
+         &nbsp;&nbsp;&nbsp;-> Desde el apartado de File Rules es posible descargar y modificar los nuevos archivos "4n4l.rules" y "EP.rules" con facilidad.<br>
+         &nbsp;&nbsp;&nbsp;-> La fecha y hora actuales se incluye al inicio de los archivos tras cada descarga para dejar constancia de su modificación.<br>
+  [+] Se incluye una funcionalidad de carving para la revisión de cabeceras PE en el interior de los archivos analizados.<br>
+         &nbsp;&nbsp;&nbsp;-> Si se identifican ejecutables se calcula el tamaño de sus PE y se extraen al disco.<br>
+         &nbsp;&nbsp;&nbsp;-> Los archivos extraídos se almacenan con el nombre del Offset de inicio del que se extrajeron y se asigna una extensión no ejecutable.<br>
+         &nbsp;&nbsp;&nbsp;-> La carpeta de almacenamiento de los archivos PE extraídos es la misma que la de almacenamiento de análisis HTML.<br>
+  [+] Se incluye un botón "[GO]" en el módulo "PE Carve" que abrirá la carpeta de los archivos creados, en caso contrario abrirá la carpeta de análisis.<br>
+         &nbsp;&nbsp;&nbsp;-> Un parpadeo luminoso en el botón "[GO]" avisará al usuario cuando la carpeta que contiene a los archivos se genere.<br>
+  [+] Se incluye un apartado de reglas para la detección de exploits.<br>
+         &nbsp;&nbsp;&nbsp;-> En los Entry Point desde el diccionario "EP.Rules"<br>
+         &nbsp;&nbsp;&nbsp;-> En el diccionario de "4n4l.Rules"<br>
+         &nbsp;&nbsp;&nbsp;-> En los recursos<br>
+  [+] Multitud de optimizaciones han sido incluidas para mejorar los tiempos de análisis.<br>
+  [+] Se ha eliminado la funcionalidad de cortador de archivos por falta de uso de la comunidad debido a que ya se analizan muestras más grandes.<br>
+  [+] Se ha realizado un cambio del icono del formulario principal y el del ejecutable de la aplicación.<br>
+  [+] Se corrigieron pequeños defectos visuales que se daban en alguna configuración del sistema inusual de los sistemas Windows 10 y Windows 11.<br>
+  [+] El botón de "Show Options" se lanza con un retraso de un segundo en la primera ejecución.<br>
+  [+] La ruta de almacenamiento de los documentos HTML pasa a encontrarse dentro de una carpeta con nombre del hash MD5 del archivo analizado.<br>
+  [+] El módulo de configuración de RATs pasa a formar parte del módulo de Heurística deshabilitado por defecto.<br>
+  [+] Aumentada la efectividad del algoritmo de carving para la extracción de funciones de la Export Table que puedan encontrarse perdidas.<br>
+  [+] Las estadísticas de tiempo y tamaño del contenido del análisis se mantienen en el título de la pestaña del WebView.<br>
+  [+] Desde la pestaña del WebView ahora se puede aplicar otro color de fondo para la generación del archivo HTML.<br>
+  [+] El código que realiza la extracción de direcciones IP ha sido revisado, mejorado y optimizado priorizando su velocidad y efectividad.<br>
+  [+] El módulo interno de "Known IP/Domains" ahora cuenta con una lista ampliada de detecciones de servicios DNS.<br>
+  [+] Solucionado un pequeño bug que pintaba de amarillo uno de los módulos sin encontrarse la opción de su análisis habilitado.<br>
+  [+] Solucionado un pequeño bug que omitía la primera cadena del buffer de "Intelligent Strings" y de la funcionalidad de "Strings".<br>
+  [+] El código de colores de la herramienta ahora marca los botones morados como una (conexión directa a internet).<br>
+  [+] Los botones de los formularios ahora muestran un indicativo de su accionación.<br>
+  [+] Aumentada la detección de nuevas sintaxis en el módulo "Intelligent Strings".<br>
+  [+] Detección de Mimikatz por diccionario "4n4l.Rules".<br>
+  [+] Corrección de algunas reglas del diccionario de detección de Entry points conocidos y del diccionario "4n4l.Rules".<br>
+  [+] Detección de SysCall desde "4n4l.Rules" por Miguel Ángel Arenas.<br>
+  [+] Opción de reanalisis de muestra en el formulario principal idea de Miguel Ángel Arenas.<br>
 
 <h3>v2.5</h3> 
      [+] Greater effectiveness and detection of new syntaxes in the "Inlligent Strings" module and in the "Strings" functionality.<br>
