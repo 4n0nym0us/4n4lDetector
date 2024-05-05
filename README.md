@@ -28,6 +28,37 @@
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
 
+<h3>v2.7</h3>
+    [+] Executable analysis for 32- and 64-bit ARM architectures (ARMv7 and ARMv8) has been implemented.<br>
+    [+] Added an option called "Sections Info" that includes additional information about sections.<br>
+    [+] Corrected tabulations that could not appear in some lines of reports in several modules.<br>
+    [+] Added the capture of possible Logins to "Intelligent Strings".<br>
+    [+] The "Intelligent Strings" module now correctly separates library names from the "Import Table".<br>
+    [+] Fixed a bug in a rare case that could hide the "Export Table" button after viewing its contents.<br>
+    [+] Eliminated the extra line breaks that were included at the end of all reports.<br>
+    [+] Improved the collection of SQL queries from the selectable module in the right options panel.<br>
+    [+] Optimization of the code of the old "Online Area" and the rest of the new options of the now called "Settings" were carried out.<br>
+    [+] Organized and included new rules for reviewing entry points from the "EP.rules" file.<br>
+    [+] Included the "[C]" button to select the color of the application's letters with auto-save function.<br>
+    [+] Restructured and adjusted the main form panel options.<br>
+    [+] The Virustotal result was included as an active part of the right panel of the main form.<br>
+    [+] The maximum file size to be analyzed is increased to 10MB by default.<br>
+    [+] Added the extraction of IT, ET and IAT disk addresses in the Information section.<br>
+    [+] Added a progress bar that appears during scans to the left of the main form.<br>
+    [+] Better control of files to be analyzed was developed and error control was improved.<br>
+    [+] Moved the counter functionality from "NOP Caves" to the "Entropy/Recount" option.<br>
+    [+] The "Rich Signature" option becomes "Signatures" as it also includes signed executables.<br>
+    [+] Verification of executable signatures has been added and we can now find the following types.<br>
+          &nbsp;&nbsp;&nbsp;-> Signed executables.<br>
+          &nbsp;&nbsp;&nbsp;-> Unsigned executables.<br>
+          &nbsp;&nbsp;&nbsp;-> Signed but modified executables.<br>
+          &nbsp;&nbsp;&nbsp;-> Others... 0.0<br>
+    [+] An error that prevented console analysis in the previous version was corrected and the code for this functionality was improved.<br>
+          &nbsp;&nbsp;&nbsp;-> The "-HELP" or "?" parameter was included. to display help from console mode.<br>
+          &nbsp;&nbsp;&nbsp;-> Made case-sensitive.<br>
+    [+] Increased the extraction of the first 40 bytes of the Entry Point to a total of 50 bytes.<br>
+          &nbsp;&nbsp;&nbsp;-> This also increases the effectiveness of the rules file "EP.rules".<br>
+
 <h3>v2.6</h3>
    [+] A new form has been included with access to an Online Area.<br>
           &nbsp;&nbsp;&nbsp;-> The "[Online Area]" button opens a form with real-time notifications that can be modified by me at any time.<br>
