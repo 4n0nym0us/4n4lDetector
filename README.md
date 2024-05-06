@@ -32,7 +32,11 @@ Using the tool is simple, just configure the options in the drop-down panel on t
   - 4n4lDetector.exe Path\App.exe -TXT (Parse a file from the console and the output is written to a TXT file)<br>
   - 4n4lDetector.exe Path\App.exe -GREMOVE (Remove binary after scan)<br>
   - 4n4lDetector.exe Path\App.exe -HTML (Parse a file from the console and the output is written to HTML file)<br>
-    
+
+<h2>How to add 4n4lDetector to Windows right click?</h2>
+  ![GIF](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/16649189-849e-4c77-b0e3-b9a624135497)
+   <br>
+   
 <h2><a href="http://www.enelpc.com/p/4n4ldetector.html">Go to the site!</a></h2>
 <h3>Some Images:</h3>
 
