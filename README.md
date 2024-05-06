@@ -4,7 +4,35 @@
 </head>
 <h2>Advanced static analysis tool</h2>
 <body>
-4n4lDetector is an analysis tool for Microsoft Windows executable files, libraries, drivers and mdumps for x86 and x64. As of v1.8 an extended use for analyzing anomalies in Linux ELF executables was also included. Its main objective is to collect the necessary information to facilitate the identification of malicious code inside the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.
+4n4lDetector is a scan tool for Microsoft Windows executables, libraries, drivers and mdumps. Its main objective is to collect the necessary information to facilitate the identification of malicious code within the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.<br><br>
+
+Using the tool is simple, just configure the options in the drop-down panel on the right and drag the samples into 4n4lDetector.<br>
+
+<h2>Full support:</h2>
+  - 32 bits (8086, x86, ARMv7)<br>
+  - 64 bits (AMD64, x86-64, x64, ARMv8)<br>
+
+<h2>Buttons code:</h2>
+  - Buttons colored green are action buttons that open files and folders or are used to interact with the tool's utilities.<br>
+  - The buttons colored in red perform reconfigurations, deletion of data or reset of functional files.<br>
+  - Purple buttons announce the activation of online interactions.<br>
+  - The pink buttons are shortcut buttons that the tool uses as tabs to navigate between different types of utilities.<br>
+
+<h2>Shortcuts:</h2>
+  - [A] Main analysis tab<br>
+  - [W] Analysis tab in modifiable HTML format for report (WebView)<br>
+  - [S] Viewer of strings extracted from the parsed file<br>
+  - [V] Module with the Virustotal report using its API<br>
+
+<h2>Detections:</h2>
+  - PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Instructions... ), Packers, Compilations, Binders/Joiners/Crypters, Architectures, Possible malicious functions, Registry Keys, Files Access, Juicy Words, Anti-VM/Sandbox/Debug, URLs Extractor, Payloads, AV Services, Duplicate Sections, IP/Domains List, Config RAT (Only In Memory Dumps), Call API By Name, Unusual Chars In Description File (Polymorphic Patterns), Rich Signature Analyzer, CheckSum Integrity Problem, PE Integrity Check, SQL Queries, Emails, Malicious resources, PE Carve, Exploits, File Rules for Entry Points and more... 😃<br>
+
+<h2>Console Options (Analysis to file):</h2>
+  - 4n4lDetector.exe Path\App.exe -GUI (Start the graphical interface parsing a file from the console)<br>
+  - 4n4lDetector.exe Path\App.exe -TXT (Parse a file from the console and the output is written to a TXT file)<br>
+  - 4n4lDetector.exe Path\App.exe -GREMOVE (Remove binary after scan)<br>
+  - 4n4lDetector.exe Path\App.exe -HTML (Parse a file from the console and the output is written to HTML file)<br>
+    
 <h2><a href="http://www.enelpc.com/p/4n4ldetector.html">Go to the site!</a></h2>
 <h3>Some Images:</h3>
 
