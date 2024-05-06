@@ -23,21 +23,23 @@ Using the tool is simple, just configure the options in the drop-down panel on t
   - [W] Analysis tab in modifiable HTML format for report (WebView)<br>
   - [S] Viewer of strings extracted from the parsed file<br>
   - [V] Module with the Virustotal report using its API<br>
-
-<h2>Detections:</h2>
-  - PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Instructions... ), Packers, Compilations, Binders/Joiners/Crypters, Architectures, Possible malicious functions, Registry Keys, Files Access, Juicy Words, Anti-VM/Sandbox/Debug, URLs Extractor, Payloads, AV Services, Duplicate Sections, IP/Domains List, Config RAT (Only In Memory Dumps), Call API By Name, Unusual Chars In Description File (Polymorphic Patterns), Rich Signature Analyzer, CheckSum Integrity Problem, PE Integrity Check, SQL Queries, Emails, Malicious resources, PE Carve, Exploits, File Rules for Entry Points and more... 😃<br>
-
+  
 <h2>Console Options (Analysis to file):</h2>
   - 4n4lDetector.exe Path\App.exe -GUI (Start the graphical interface parsing a file from the console)<br>
   - 4n4lDetector.exe Path\App.exe -TXT (Parse a file from the console and the output is written to a TXT file)<br>
   - 4n4lDetector.exe Path\App.exe -GREMOVE (Remove binary after scan)<br>
   - 4n4lDetector.exe Path\App.exe -HTML (Parse a file from the console and the output is written to HTML file)<br>
 
+<h2>Detections:</h2>
+PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Instructions... ), Packers, Compilations, Binders/Joiners/Crypters, Architectures, Possible malicious functions, Registry Keys, Files Access, Juicy Words, Anti-VM/Sandbox/Debug, URLs Extractor, Payloads, AV Services, Duplicate Sections, IP/Domains List, Config RAT (Only In Memory Dumps), Call API By Name, Unusual Chars In Description File (Polymorphic Patterns), Rich Signature Analyzer, CheckSum Integrity Problem, PE Integrity Check, SQL Queries, Emails, Malicious resources, PE Carve, Exploits, File Rules for Entry Points and more... 😃<br>
+
+
 <h2>How to add 4n4lDetector to Windows right click?</h2>
-  ![GIF](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/16649189-849e-4c77-b0e3-b9a624135497)
+  <img src="https://github.com/4n0nym0us/4n4lDetector/assets/76454196/16649189-849e-4c77-b0e3-b9a624135497"</img>
    <br>
+
+<h2><a href="http://www.enelpc.com/p/4n4ldetector.html">WWW.ENELPC.COM</a></h2>
    
-<h2><a href="http://www.enelpc.com/p/4n4ldetector.html">Go to the site!</a></h2>
 <h3>Some Images:</h3>
 
 ![1](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/e07ff8a6-eaaa-4783-a230-2ec41518f30b)
