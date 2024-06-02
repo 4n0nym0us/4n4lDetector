@@ -13,10 +13,10 @@ Using the tool is simple, just configure the options in the drop-down panel on t
   - 64 bits (AMD64, x86-64, x64, ARMv8)<br>
 
 <h2>Buttons code:</h2>
-  - Buttons colored green are action buttons that open files and folders or are used to interact with the tool's utilities.<br>
-  - The buttons colored in red perform reconfigurations, deletion of data or reset of functional files.<br>
-  - Purple buttons announce the activation of online interactions.<br>
-  - The pink buttons are shortcut buttons that the tool uses as tabs to navigate between different types of utilities.<br>
+  <span style="color: green;">- Buttons colored green are action buttons that open files and folders or are used to interact with the tool's utilities.</span><br>
+  <span style="color: red;">- The buttons colored in red perform reconfigurations, deletion of data or reset of functional files.</span><br>
+  <span style="color: purple;">- Purple buttons announce the activation of online interactions.</span><br>
+  <span style="color: pink;">- The pink buttons are shortcut buttons that the tool uses as tabs to navigate between different types of utilities.</span><br>
 
 <h2>Shortcuts:</h2>
   - [A] Main analysis tab<br>
@@ -25,10 +25,14 @@ Using the tool is simple, just configure the options in the drop-down panel on t
   - [V] Module with the Virustotal report using its API<br>
   
 <h2>Console Options (Analysis to file):</h2>
-  - 4n4lDetector.exe Path\App.exe -GUI (Start the graphical interface parsing a file from the console)<br>
-  - 4n4lDetector.exe Path\App.exe -TXT (Parse a file from the console and the output is written to a TXT file)<br>
-  - 4n4lDetector.exe Path\App.exe -GREMOVE (Remove binary after scan)<br>
-  - 4n4lDetector.exe Path\App.exe -HTML (Parse a file from the console and the output is written to HTML file)<br>
+Start the graphical interface parsing a file from the console:<br>
+  <code>4n4lDetector.exe Path\App.exe -GUI</code><br><br>
+Remove binary after scan:<br>
+  <code>4n4lDetector.exe Path\App.exe -GREMOVE</code><br><br>
+Parse a file from the console and the output is written to a TXT file:<br>    
+  <code>4n4lDetector.exe Path\App.exe -TXT</code><br><br>
+Parse a file from the console and the output is written to HTML file:<br>
+  <code>4n4lDetector.exe Path\App.exe -HTML</code>
 
 <h2>Detections:</h2>
 PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Instructions... ), Packers, Compilations, Binders/Joiners/Crypters, Architectures, Possible malicious functions, Registry Keys, Files Access, Juicy Words, Anti-VM/Sandbox/Debug, URLs Extractor, Payloads, AV Services, Duplicate Sections, IP/Domains List, Config RAT (Only In Memory Dumps), Call API By Name, Unusual Chars In Description File (Polymorphic Patterns), Rich Signature Analyzer, CheckSum Integrity Problem, PE Integrity Check, SQL Queries, Emails, Malicious resources, PE Carve, Exploits, File Rules for Entry Points and more... 😃<br>
