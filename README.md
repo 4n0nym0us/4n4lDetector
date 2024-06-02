@@ -66,6 +66,38 @@ PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Inst
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
 
+<h3>v2.8</h3>
+    [+] A notice is added to the sections section when the identified section is executable.<br>
+    [+] The SHA-256 and SHA-1 Hashes of all analyzed files are now also calculated.<br>
+    [+] Including the original name of the analyzed library in the "[Export Table]" button.<br>
+    [+] Now 4n4lDetector is able to identify content in the Import Table even though the "Original First Thunk" Offset is at "0" as in UPX tablets.<br>
+    [+] The "Settings" module now has a subtle optimization to avoid freezes when downloading notifications.<br>
+    [+] The code responsible for resource extraction has been optimized, it is now faster.<br>
+    [+] Entry Point extraction has been restructured, optimizing its code and improving extraction speed.<br>
+    [+] Optimized and removed some of the internal rules of 4n4lDetector to avoid some false positives.<br>
+    [+] The file description extractor algorithm was modified, it is now more effective.<br>
+    [+] The Carving PE result is now stored in a folder called PECarve within the analysis section.<br>
+    [+] Virustotal information has been relocated to the main panel. (Use your personal API_KEY).<br>
+          &nbsp;&nbsp;&nbsp;-> SORRY MICROSOFT... I think we are at peace after that CobaltStrike detection <3<br>
+    [+] The "IT Functions:" section of the main analysis is now called "Suspicious functions:", this being more accurate.<br>
+          &nbsp;&nbsp;&nbsp;-> Functions now have a description of their functionalities.<br>
+    [+] The "Strings" functionality now runs automatically, visible in the "[s]" button after scans while "Intelligent Strings" is active.<br>
+          &nbsp;&nbsp;&nbsp;-> Increased the effectiveness and speed of the "Intelligent Strings" module and the "Strings" functionality.<br>
+    [+] The "Sections Info" option is now internal and in its place an optional one has been created to decompress UPX samples.<br>
+          &nbsp;&nbsp;&nbsp;-> The unzipped samples are stored in the analysis path, within a folder called UPX.<br>
+          &nbsp;&nbsp;&nbsp;-> The UPX binary is located in the root of 4n4lDetector, in a folder called "bin" and can be modified by the user.<br>
+    [+] The verification of signed executables, the checksum signature and the Rich signature are now grouped in the "Signatures" section.<br>
+    [+] Changes in the management of the Rich firm.<br>
+          &nbsp;&nbsp;&nbsp;-> The entire signature is extracted, not just the first part.<br>
+          &nbsp;&nbsp;&nbsp;-> Added a hash for detection.<br>
+          &nbsp;&nbsp;&nbsp;-> its integrity is verified with a review of the old algorithm.<br>
+    [+] A new tool has been added to extract Offsets directly from the executable and view its contents.<br>
+          &nbsp;&nbsp;&nbsp;-> It is now possible to manually perform code searches in hexadecimal, ASCII and UNICODE.<br>
+          &nbsp;&nbsp;&nbsp;-> A functionality to review the assembly code has also been included.<br>
+          &nbsp;&nbsp;&nbsp;-> This tool executes its main functions automatically with the Entry Point after each analysis.<br>
+    [+] Added extraction of import and export tables from the rest of the existing executable architectures.<br>
+          &nbsp;&nbsp;&nbsp;-> Alpha AXP, ARM, EFI Byte Code, EFI Byte Code (EBC), Hitachi SH3, Hitachi SH3, Hitachi SH3, Hitachi SH4, Hitachi SH5, Intel Itanium (IA-64), Intel i860, M32R, MIPS16, MIPS16 with FPU, MIPS R3000, MIPS R4000, MIPS little-endian, MIPS little-endian WCE v2, MIPS with FPU.<br>
+            
 <h3>v2.7</h3>
     [+] Executable analysis for 32- and 64-bit ARM architectures (ARMv7 and ARMv8) has been implemented.<br>
     [+] Added an option called "Sections Info" that includes additional information about sections.<br>
