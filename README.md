@@ -12,7 +12,7 @@ Using the tool is simple, just configure the options in the drop-down panel on t
   - 32 bits (8086, x86, ARMv7)<br>
   - 64 bits (AMD64, x86-64, x64, ARMv8)<br>
 
-<h2>TI and ET Extraction:</h2>
+<h2>IT and ET Extraction:</h2>
 Alpha AXP, ARM, ARM Thumb-2 (32-bit Thumb), ARM64, EFI Byte Code, EFI Byte Code (EBC), Hitachi SH3, Hitachi SH3, Hitachi SH4, Hitachi SH5, Intel i860, Intel Itanium (IA-64), M32R, MIPS16, MIPS16 with FPU, MIPS R3000, MIPS R4000, MIPS with FPU, MIPS little-endian, MIPS little-endian WCE v2, x64, x86, x86-64.<br>
 
 <h2>Buttons code:</h2>
