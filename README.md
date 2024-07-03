@@ -1,6 +1,6 @@
 <html>
 <head>
-  ![grande](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/4eb8924e-ad49-4896-aa16-d72ee48e849a)
+<img src="https://github.com/4n0nym0us/4n4lDetector/assets/76454196/4eb8924e-ad49-4896-aa16-d72ee48e849a"</img>
 </head>
 <h2>Advanced static analysis tool</h2>
 <body>
