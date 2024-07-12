@@ -21,6 +21,16 @@ Alpha AXP, ARM, ARM Thumb-2 (32-bit Thumb), ARM64, EFI Byte Code, EFI Byte Code 
   <span style="color: purple;">- Purple buttons announce the activation of online interactions.</span><br>
   <span style="color: pink;">- The pink buttons are shortcut buttons that the tool uses as tabs to navigate between different types of utilities.</span><br>
 
+<h2>PE chart code:</h2>
+  - The executable header is displayed in light blue.<br>
+  - The executable sections are pink.<br>
+  - Non-executable sections are black.<br>
+  - Code added to executables externally to a compiler appears in red. (Cryptists, Folders, Carpenters...)<br>
+
+<h2>Chart code for other files:</h2>
+  - Printable characters are blue.<br>
+  - Non-printable characters (Null Bytes) are black.<br>
+
 <h2>Shortcuts:</h2>
   - [A] Main analysis tab<br>
   - [W] Analysis tab in modifiable HTML format for report (WebView)<br>
@@ -68,6 +78,50 @@ PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Inst
 <br>
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
+
+<h3>v2.9</h3>
+    [+] New logo of the application by Sandra Badia Gimeno (www.sandrabadia.com).<br>
+    [+] Relocated Kernel-mode functions to the Suspicious Functions section.<br>
+    [+] Surprises are included so you don't get bored with daily use of the tool.<br>
+    [+] A multitude of tests were carried out focused on providing the greatest stability, speed and effectiveness of the extracted contents.<br>
+    [+] Optimization during idle state. File creation checks are no longer performed for the PECarve and UPX functionalities.<br>
+    [+] Detection of sections that allow writing from flags was included.<br>
+    [+] The extraction of functions from the "Export Table" using Carving has been slightly improved.<br>
+    [+] The name of the file under analysis has been included in the content of the report.<br>
+    [+] Added a longer description about the possibilities of the Zombie_AddRef function.<br>
+    [+] Fixed a bug where the "Show Offsets" tool dump did not allow reading a small portion of the end of the analyzed file.<br>
+    [+] Now when you click on the Virustotal result in the main form, it will take us to the analysis web page.<br>
+    [+] Virustotal analysis has been included in the analyzes carried out from console mode.<br>
+    [+] Review of Shikata_ga_nai detections and update of Payload detection heuristics.<br>
+    [+] Increased and improved the query extraction functionality of the ASCII and UNICODE records branch.<br>
+    [+] Increased and improved the ASCII and UNICODE SQL query extraction functionality.<br>
+    [+] Increased and improved URL extraction functionality, also searches FTP and SFTP in ASCII and UNICODE.<br>
+    [+] Increased and improved ASCII and UNICODE file name extraction functionality.<br>
+          &nbsp;&nbsp;&nbsp;-> .EXE, .DLL, .BAT, .VBS, .VBE, .JSE, .WSF, .WSH, .PS1, .PSM1, .PSC1, .SCR, .HTA, .DLL, .PIF, .MSI , .MSP, .SYS, .CPL, .JAR, .TXT, .INI, .PDF, .WDS, .DOC<br>
+    [+] The word finder has been completely delimited for any search location of the text boxes.<br>
+          &nbsp;&nbsp;&nbsp;-> In web view the browser is now automatically blocked.<br>
+    [+] Fixed a rare error in the IPs section that could lead the execution thread to a loop without finishing analyzing the files.<br>
+          &nbsp;&nbsp;&nbsp;-> This fix also fixed the ability to end analysis with a single active option in the tool's modules panel.<br>
+    [+] The 4n4l.rules module now internally converts text format rules "T:" to Unicode format.<br>
+          &nbsp;&nbsp;&nbsp;-> The rules of this file have been optimized, now search more with less.<br>
+    [+] The bytes to be reviewed at the Entry Point by the rules file are increased from 100 to 1500.<br>
+          &nbsp;&nbsp;&nbsp;-> Revised some of the rules to eliminate false positives after the update.<br>
+    [+] The reading of the rule files is done only once after starting the application or after the first analysis, then it is loaded into memory for future uses.<br>
+          &nbsp;&nbsp;&nbsp;-> The charging status can be checked from the "Settings" section.<br>
+    [+] Added the tilde (~), the dollar ($), the single quote (') and the double quote (") as characters that can be part of the reports.<br>
+          &nbsp;&nbsp;&nbsp;-> A conversion filter is applied to these quotes for the tool's Web view.<br>
+    [+] Worked on the efficiency of the "Intelligent Strings" module.<br>
+          &nbsp;&nbsp;&nbsp;-> The length of strings to be analyzed was increased in all the Strings functionalities of the tool (75% longer strings).<br>
+          &nbsp;&nbsp;&nbsp;-> Specific cleanup of anomalous characters is now performed and new ones are allowed.<br>
+          &nbsp;&nbsp;&nbsp;-> Search words were extended.<br>
+    [+] Added a graph in charge of displaying the content of the executables and any analyzed files.<br>
+          &nbsp;&nbsp;&nbsp;-> The executable header is displayed in blue.<br>
+          &nbsp;&nbsp;&nbsp;-> The identified sections are divided between magenta for the executable sections and black for the rest.<br>
+          &nbsp;&nbsp;&nbsp;-> The excess code of the executables will have a red color as in Crypters, Binders, Joiners...<br>
+          &nbsp;&nbsp;&nbsp;-> If the analyzed section contains an RSize of zero, its content will not be painted on the graph.<br>
+          &nbsp;&nbsp;&nbsp;-> If the file is not a Windows executable, it will be scanned for printable characters and the absence of printable characters. Blue and black when there is no content.<br>
+          &nbsp;&nbsp;&nbsp;-> When you double click on the graph, it will automatically be saved in the analysis folder.<br>
+          &nbsp;&nbsp;&nbsp;-> The executions measure the console mode of the application "-TXT", "-HTML" or "-GREMOVE" include the graph as analysis output.<br>
 
 <h3>v2.8</h3>
     [+] A notice is added to the sections section when the identified section is executable.<br>
