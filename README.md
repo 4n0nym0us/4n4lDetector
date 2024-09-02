@@ -56,6 +56,10 @@ PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Inst
    <br>
 
 <h2><a href="http://www.enelpc.com/p/4n4ldetector.html">WWW.ENELPC.COM</a></h2>
+
+If you enjoy my work and would like to support me, please consider making a donation through PayPal. Any amount is greatly appreciated!<br>
+[![Donar con PayPal](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png)](https://paypal.me/enelpc)
+<br>
    
 <h3>Some Images:</h3>
 
