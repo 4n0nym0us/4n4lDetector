@@ -83,6 +83,34 @@ If you enjoy my work and would like to support me, please consider making a dona
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
 
+<h3>v3.0</h3>
+    [+] The function search code for "Import Table" and "Call Api By Name" has been optimized.<br>
+    [+] A general optimization has been performed with one of the largest buffers in memory, this positively affects the stability and speed of the general analysis.<br>
+    [+] The size of the file to be analyzed has been increased by default to 50MB.<br>
+    [+] An optimization has been made in the search engine for the "Show Offsets" option and in the handling of buffers.<br>
+    [+] Searches for generic malware terms, different types of exploitation, APTs and terminologies that may affect the State in "4n4l.Rules" have been included.<br>
+    [+] A cleaning of null bytes 0x00 is performed in the variable where the report is stored to avoid bugs in the output of the text box of the main form.<br>
+    [+] The tool interface takes on a darker base tone.<br>
+    [+] A donation button via (PAYPAL) has been included since I have finally decided to continue with the project publicly for everyone.<br>
+    [+] A bug was fixed in which false functions could be included in the "Export Table" list by carving.<br>
+    [+] The Interest's Words module includes new internal words for the tool, for ansi and unicode.<br>
+    [+] A bug in the web view was fixed that could aesthetically affect the view of the Interest's Words module statement.<br>
+    [+] Optimizations were made in the Known IP/Domains module for ansi and unicode.<br>
+    [+] New search syntaxes were included in the "Intelligent Strings" module to increase interesting results.<br>
+          &nbsp;&nbsp;&nbsp;-> Internal cleanup syntaxes were added to show more stylized results.<br>
+          &nbsp;&nbsp;&nbsp;-> An optimization has been made with a direct impact on the variables used in this module.<br>
+    [+] A more selective cleaning of the extracted URLs is performed:<br>
+          &nbsp;&nbsp;&nbsp;-> URLs with extensions in the context of PKI digital certificates are reconstructed.<br>
+          &nbsp;&nbsp;&nbsp;-> Htm extensions are reconstructed.<br>
+          &nbsp;&nbsp;&nbsp;-> ".com" domain endings are cleaned.<br>
+          &nbsp;&nbsp;&nbsp;-> Possible HTML code cleaning is performed.<br>
+    [+] A progression system based on medals has been included.<br>
+          &nbsp;&nbsp;&nbsp;-> Brown Padawan Medal, Bronze Medal, Silver Medal, Gold Medal and Platinum Medal.<br>
+          &nbsp;&nbsp;&nbsp;-> The process can be slow, don't despair... because it's worth it.<br>
+          &nbsp;&nbsp;&nbsp;-> These medals will be earned as you use the tool over the course of days, weeks, months and consequently their functionality will also increase progressively.<br>
+          &nbsp;&nbsp;&nbsp;-> The medals will only work on the work machine on which they have been earned, if you want to make it work on another machine of yours try it yourself (You're a hacker, right?).<br>
+          &nbsp;&nbsp;&nbsp;-> The features or surprises that come with leveling up are not included in this file, although you can review them in the "Settings" section of the tool.<br>
+
 <h3>v2.9</h3>
     [+] New logo of the application by Sandra Badia Gimeno (www.sandrabadia.com).<br>
     [+] Relocated Kernel-mode functions to the Suspicious Functions section.<br>
