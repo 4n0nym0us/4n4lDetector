@@ -1,7 +1,11 @@
 <html>
 <head>
-<img src="https://github.com/4n0nym0us/4n4lDetector/assets/76454196/4eb8924e-ad49-4896-aa16-d72ee48e849a"</img>
-</head>
+    <header class="header">
+    <img src="https://github.com/4n0nym0us/4n4lDetector/assets/76454196/4eb8924e-ad49-4896-aa16-d72ee48e849a"</img>
+        <h1>Pescan Online Scanner</h1>
+        <p>Explore, analyze, and uncover malware effortlessly with our online scanner. This enhanced version is a substantial improvement over the current public release, featuring advanced capabilities, improved performance, and superior extraction of Indicators of Compromise (IOCs) to strengthen malware detection and analysis.</p>
+        <a class="github-link" href="https://pescan.io" target="_blank">PESCAN.IO</a>   
+    </head>
 <h2>Advanced static analysis tool</h2>
 <body>
 4n4lDetector is a scan tool for Microsoft Windows executables, libraries, drivers and mdumps. Its main objective is to collect the necessary information to facilitate the identification of malicious code within the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.<br><br>
