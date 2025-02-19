@@ -29,7 +29,7 @@ Alpha AXP, ARM, ARM Thumb-2 (32-bit Thumb), ARM64, EFI Byte Code, EFI Byte Code 
   - The executable header is displayed in light blue.<br>
   - The executable sections are pink.<br>
   - Non-executable sections are black.<br>
-  - Code added to executables externally to a compiler appears in red. (Cryptists, Folders, Carpenters...)<br>
+  - Code added to executables externally to a compiler appears in red. (Crypters, Joiners, Droppers...)<br>
 
 <h2>Chart code for other files:</h2>
   - Printable characters are blue.<br>
