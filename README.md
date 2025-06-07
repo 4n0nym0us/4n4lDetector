@@ -87,6 +87,30 @@ If you enjoy my work and would like to support me, please consider making a dona
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
 
+<h3>v3.1</h3>
+    [+] A new button with a coronavirus icon has been added to the main panel, redirecting the user to PEscan.io when clicked.<br>
+    [+] Manual integration of all Zw functions with their descriptions, including detection of Call API By Name invocations.<br>
+    [+] Significant improvements in the information gathering module via SQL queries, optimizing both performance and accuracy.<br>
+    [+] Optimization of the detection and analysis process for duplicate sections in PE files.<br>
+    [+] Adjustment in the RVA calculation for the Export Table, now based on its real offset.<br>
+    [+] New controls implemented for the extraction of the Import Table, Export Table, and Resources.<br>
+    [+] A preventive control has been added to avoid general overflow-related errors.<br>
+    [+] SSL support updated to ensure compatibility with the VirusTotal API.<br>
+    [+] The automatic download of the current message in the Settings section has been disabled; it now requires manual user action.<br>
+    [+] Additional security checks added for the Reset and Updates buttons in Settings to prevent accidental execution.<br>
+    [+] Redesign and improvement of report presentation, both in the main panel and HTML version, aimed at a better user experience.<br>
+    [+] File access module revised to improve extraction of styled HTML content.<br>
+    [+] Buffer handling optimized during analysis to enhance overall performance.<br>
+    [+] Additional information included, such as the .NET version and a new flag indicating Any CPU support.<br>
+    [+] Settings and Help forms now open centered relative to the main form.<br>
+    [+] Updated rule dictionaries for Entry Point and custom "4n4l.Rules".<br>
+    [+] Fixed a sporadic error in the file paths section.<br>
+    [+] Added plain text format extraction for data retrieved from executable resources.<br>
+          &nbsp;&nbsp;&nbsp;-> Reviewed detection of executables embedded within resources.<br>
+          &nbsp;&nbsp;&nbsp;-> Text extraction from resources is now limited according to actual content size.<br>
+    [+] Improved Intelligent Strings module with broader pattern coverage and detections.<br>
+          &nbsp;&nbsp;&nbsp;-> Enhanced collection of serial numbers and IP addresses in the module.<br>
+
 <h3>v3.0</h3>
     [+] The function search code for "Import Table" and "Call Api By Name" has been optimized.<br>
     [+] A general optimization has been performed with one of the largest buffers in memory, this positively affects the stability and speed of the general analysis.<br>
