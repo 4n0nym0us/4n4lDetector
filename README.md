@@ -87,6 +87,28 @@ If you enjoy my work and would like to support me, please consider making a dona
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
 
+<h3>v3.2</h3>
+    [+] Compatibility with the achievement medal system and unlocking of functionalities from the previous version.<br>
+    [+] Fixed an issue that caused duplicate section counts in non-executable files.<br>
+    [+] Inclusion of form state controls during analysis.<br>
+    [+] Complete review of the heuristic and email modules, now enabled by default.<br>
+    [+] If the Options form was open during analysis, it will remain visible until completion.<br>
+    [+] Manual string search limited to 100 characters.<br>
+    [+] Redistribution and minor adjustments in the payload module detections.<br>
+    [+] Review of the decimal-to-hexadecimal and hexadecimal-to-decimal offset conversion routine.<br>
+    [+] Optimization of the Intelligent Strings module, improving performance on large files.<br>
+    [+] Slight improvement in SQL query extraction.<br>
+    [+] Update and optimization of the file description extraction module:<br>
+          &nbsp;&nbsp;&nbsp;-> Language and CodePage fields are now included in all descriptions.<br>
+    [+] Inclusion of the Flow Anomalies module, responsible for static code flow checks:<br>
+          &nbsp;&nbsp;&nbsp;-> Identification of indirect calls in executables.<br>
+          &nbsp;&nbsp;&nbsp;-> Detection of suspicious jump sequences (JMP and conditional), indicating possible obfuscation or packing.<br>
+          &nbsp;&nbsp;&nbsp;-> Detection of instructions related to shellcodes and payloads.<br>
+          &nbsp;&nbsp;&nbsp;-> Detection of NOP and breakpoint (BP) sequences.<br>
+          &nbsp;&nbsp;&nbsp;-> Extraction of Overlay in hexadecimal and character format.<br>
+          &nbsp;&nbsp;&nbsp;-> Verification of junk code in Entry Points.<br>
+
+
 <h3>v3.1</h3>
     [+] A new button with a coronavirus icon has been added to the main panel, redirecting the user to PEscan.io when clicked.<br>
     [+] Manual integration of all Zw functions with their descriptions, including detection of Call API By Name invocations.<br>
