@@ -64,6 +64,20 @@ PE Information, Unusual Entry Point Position or Code (Algorithms, Anomalous Inst
 If you enjoy my work and would like to support me, please consider making a donation through PayPal. Any amount is greatly appreciated!<br>
 [![Donar con PayPal](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png)](https://paypal.me/enelpc)
 <br>
+
+  <h2>Legal Disclaimer</h2>
+  <p>This software is provided "as is," without any warranties, either express or implied, including, but not limited to, warranties of merchantability or fitness for a particular purpose. The author shall not be held liable for any direct, indirect, incidental, or consequential damages arising from its use or inability to use it. Any use of the files that comprise the 4n4lDetector or 4n4lDetector Pro applications for purposes other than those intended requires the explicit authorization of the author.</p>
+  <p>The author reserves the right to disable or block the software at any time without prior notice or the right to refunds.</p>
+  <p>By using this software, you acknowledge that you have read and fully understood this disclaimer.</p>
+
+  <h2>License of Use</h2>
+  <h3>4n4lDetector (Free Version)</h3>
+  <p>This software is free for personal and research purposes only. Commercial use, resale, redistribution, or integration of this software into online services, platforms, or security products without the explicit written authorization of the author is strictly prohibited.</p>
+
+  <h3>4n4lDetector Pro</h3>
+  <p>The Pro version is provided under individual authorization by the author. Any redistribution, resale, commercial use, or integration into online services or products without the explicit written authorization of the author is strictly prohibited.</p>
+
+  <p>By downloading, copying, or using this software (Free or Pro), you agree to be bound by these terms.</p><br>
    
 <h3>Some Images:</h3>
 
