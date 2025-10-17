@@ -101,6 +101,44 @@ If you enjoy my work and would like to support me, please consider making a dona
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
 
+<h3>v3.3</h3>
+    [+] Fixed an intermittent bug that could display the rotating "hacker" logo at the end of the first scan.<br>
+    [+] Added extraction of the IAT disk address in the Information panel.<br>
+    [+] Show Offsets notifications now display location details for the offset when pressing "DUMP" and "Disassemble".<br>
+    [+] Added overflow checks to the external signature modules.<br>
+    [+] Reviewed section counting for PE files with corrupt headers.<br>
+    [+] Readjusted Subsystem and MajorOSVersion identifiers in PE files.<br>
+    [+] Added the MinorOSVersion field to the analysis shown in Information.<br>
+    [+] Reviewed duplicate section counting routine for PE headers.<br>
+    [+] Complete refactor of the SQL extraction module — now significantly more powerful.<br>
+    [+] Reviewed the File Access execution extraction section.<br>
+    [+] Improved detection of names in the Export Table carving section.<br>
+    [+] If the Options form was open during analysis, it will remain visible until completion. (REVISION2)<br>
+    [+] Fixed an intermittent bug affecting UNICODE string searching in the Finder.<br>
+    [+] Slight increase in detections by the Intelligent String module.<br>
+          &nbsp;&nbsp;&nbsp;-> Added a dedicated string cleansing routine for Go (Golang) builds.<br>
+    [+] Reviewed the File Access module:<br>
+          &nbsp;&nbsp;&nbsp;-> Maximized Unicode string extraction capability in the File Access module.<br>
+          &nbsp;&nbsp;&nbsp;-> Improved ASCII extraction cleaning to address Golang compiler false positives.<br>
+    [+] Review of the sections overview:<br>
+          &nbsp;&nbsp;&nbsp;-> Added entropy and Chi-square (Chi2) calculations to file sections.<br>
+          &nbsp;&nbsp;&nbsp;-> Included full flag descriptions for all sections.<br>
+          &nbsp;&nbsp;&nbsp;-> Sections without names now appear as *unnamed*.<br>
+    [+] Rebalance of the Flow Anomalies module:<br>
+          &nbsp;&nbsp;&nbsp;-> Added detection of *padding* and *header* patterns for fragments between sections.<br>
+          &nbsp;&nbsp;&nbsp;-> Included reading of TLS Callbacks.<br>
+          &nbsp;&nbsp;&nbsp;-> Improved detection speed for shellcode and payload instruction patterns in Flow Anomalies.<br>
+          &nbsp;&nbsp;&nbsp;-> Adjusted opcode interpretation with ModR/M and SIB to distinguish simple "Displacement form" cases from complex "ModRM/SIB parsed" cases, while maintaining continuity with previous versions.<br>
+          &nbsp;&nbsp;&nbsp;-> Junk-code detection at entry points now applies across the entire PE file.<br>
+          &nbsp;&nbsp;&nbsp;-> Restructured section-field detection so it is explicitly tied to the on-disk offset.<br>
+          &nbsp;&nbsp;&nbsp;-> The heuristic module now features the [cnf] shortcut to open [Settings].<br>
+          &nbsp;&nbsp;&nbsp;-> Extended translation compatibility for x64 instruction decoding.<br>
+    [+] Added a new "Indirect Call/Jump" heuristic options section to control indirect calls and jumps in [Settings]:<br>
+          &nbsp;&nbsp;&nbsp;-> Allows selecting the code-size to analyze in decimal, from 1,000 to 100,000 bytes.<br>
+          &nbsp;&nbsp;&nbsp;-> Init Offset defines the analysis starting point and accepts decimal or hexadecimal values.<br>
+          &nbsp;&nbsp;&nbsp;-> CALL [static], JMP [static], CALL [reg], and JMP [reg] options are selectable via checkboxes.<br>
+          &nbsp;&nbsp;&nbsp;-> "Indirect Call/Jump" configurations are automatically saved and loaded at application start and can be removed from the "Config files" section.<br>
+
 <h3>v3.2</h3>
     [+] Compatibility with the achievement medal system and unlocking of functionalities from the previous version.<br>
     [+] Fixed an issue that caused duplicate section counts in non-executable files.<br>
@@ -121,7 +159,6 @@ If you enjoy my work and would like to support me, please consider making a dona
           &nbsp;&nbsp;&nbsp;-> Detection of NOP and breakpoint (BP) sequences.<br>
           &nbsp;&nbsp;&nbsp;-> Extraction of Overlay in hexadecimal and character format.<br>
           &nbsp;&nbsp;&nbsp;-> Verification of junk code in Entry Points.<br>
-
 
 <h3>v3.1</h3>
     [+] A new button with a coronavirus icon has been added to the main panel, redirecting the user to PEscan.io when clicked.<br>
