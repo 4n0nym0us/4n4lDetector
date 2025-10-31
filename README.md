@@ -2,15 +2,25 @@
 <head>
     <header class="header">
     <img src="https://github.com/4n0nym0us/4n4lDetector/assets/76454196/4eb8924e-ad49-4896-aa16-d72ee48e849a"</img>
-        <h1>Pescan Online Scanner</h1>
-        <p>Explore, analyze, and uncover malware effortlessly with our online scanner. This enhanced version is a substantial improvement over the current public release, featuring advanced capabilities, improved performance, and superior extraction of Indicators of Compromise (IOCs) to strengthen malware detection and analysis.</p>
-        <a class="github-link" href="https://pescan.io" target="_blank">PESCAN.IO</a>   
     </head>
-<h2>Advanced static analysis tool</h2>
+<h1>Advanced Static Analysis Tool</h1>
 <body>
-4n4lDetector is a scan tool for Microsoft Windows executables, libraries, drivers and mdumps. Its main objective is to collect the necessary information to facilitate the identification of malicious code within the analyzed files. This tool analyzes, among other things, the PE header and its structure, the content of the sections, the different types of strings, among many other things. It also incorporates a multitude of its own ideas to recognize anomalies in the construction of files and the detection of mechanisms used by current malware.<br><br>
+4n4lDetector is a powerful static analysis tool focused on Microsoft Windows executables, libraries, drivers, and memory dumps, but its integrated modules are capable of analyzing virtually any file type with reliable performance and accurate detection.<br>
 
-Using the tool is simple, just configure the options in the drop-down panel on the right and drag the samples into 4n4lDetector.<br>
+It performs deep inspection of Portable Executable (PE) structures, sections, headers, and resources to identify anomalies, obfuscation layers, and embedded malicious components. Beyond standard PE analysis, its specialized modules extract and classify strings, metadata, and embedded code from non-PE files, extending its scope to a wide range of binary formats.<br>
+
+One of its most distinctive features is the <b>Flow Anomalies module</b>, which detects irregular control flow patterns such as unexpected jumps, embedded junk code, and execution redirections behaviors frequently found in obfuscated or evasive malware. Combined with heuristic and signature-based logic, this enables 4n4lDetector to uncover subtle structural and behavioral inconsistencies invisible to traditional scanners.<br>
+
+Designed with efficiency, precision, and depth in mind, <b>4n4lDetector</b> began its development in 2015 while I was working at Panda Antivirus, originally conceived as a personal tool to assist in my daily malware analysis tasks. Since then, it has been solely developed and continuously refined by myself, evolving into a robust and reliable framework for malware research, reverse engineering, and forensic investigation.<br><br>
+</body>
+Using the tool is simple: configure the options in the right-side panel and drag your samples directly into 4n4lDetector.<br>
+    <h2>Pescan.io (Web Scanner)</h2>
+        <p>
+        Explore, analyze, and uncover malware effortlessly with our online scanner. Built upon the powerful <b>4n4lDetector</b> engine, this enhanced version delivers advanced capabilities, improved performance, and superior extraction of Indicators of Compromise (IOCs) to strengthen malware detection and analysis.  
+        <br>
+        Developed with a focus on precision and scalability, PEScan Online brings the proven static analysis technology of 4n4lDetector to the web enabling secure, in-depth examination of suspicious files directly from your browser.
+        </p>
+        <a class="github-link" href="https://pescan.io" target="_blank">PESCAN.IO</a>
 
 <h2>Full support:</h2>
   - 32 bits (8086, x86, ARMv7)<br>
