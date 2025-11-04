@@ -5,15 +5,19 @@
     </head>
 <h1>Advanced Static Analysis Tool</h1>
 <body>
-4n4lDetector is a powerful static analysis tool focused on Microsoft Windows executables, libraries, drivers, and memory dumps, but its integrated modules are capable of analyzing virtually any file type with reliable performance and accurate detection.<br>
+4n4lDetector is a powerful static analysis tool focused on Microsoft Windows executables, libraries, drivers, and memory dumps, while its integrated modules can analyze virtually any file type with reliable performance and accurate detection.<br>
 
 It performs deep inspection of Portable Executable (PE) structures, sections, headers, and resources to identify anomalies, obfuscation layers, and embedded malicious components. Beyond standard PE analysis, its specialized modules extract and classify strings, metadata, and embedded code from non-PE files, extending its scope to a wide range of binary formats.<br>
 
-One of its most distinctive features is the <b>Flow Anomalies module</b>, which detects irregular control flow patterns such as unexpected jumps, embedded junk code, and execution redirections behaviors frequently found in obfuscated or evasive malware. Combined with heuristic and signature-based logic, this enables 4n4lDetector to uncover subtle structural and behavioral inconsistencies invisible to traditional scanners.<br>
+One of its most distinctive features is the <b>Flow Anomalies module</b>, which identifies unusual patterns in the program’s control flow without executing the sample, such as irregular jumps, embedded junk code, and execution redirection behaviors commonly used in obfuscated or evasive malware. By combining heuristic and signature-based analysis, 4n4lDetector can uncover subtle structural inconsistencies invisible to traditional scanners.<br>
 
-Designed with efficiency, precision, and depth in mind, <b>4n4lDetector</b> began its development in 2015 while I was working at Panda Antivirus, originally conceived as a personal tool to assist in my daily malware analysis tasks. Since then, it has been solely developed and continuously refined by myself, evolving into a robust and reliable framework for malware research, reverse engineering, and forensic investigation.<br><br>
-</body>
+Designed with efficiency, precision, and depth in mind, <b>4n4lDetector</b> began its development in 2015 while I was working at Panda Antivirus, originally conceived as a personal tool to assist in my daily malware analysis tasks. Since then, it has been solely developed and continuously refined by myself, evolving into a robust and reliable framework for malware research, reverse engineering, and forensic investigation.<br>
+
 Using the tool is simple: configure the options in the right-side panel and drag your samples directly into 4n4lDetector.<br>
+
+For more information about my professional background and projects, visit my LinkedIn profile: <a href="https://www.linkedin.com/in/enelpc/" target="_blank">https://www.linkedin.com/in/enelpc/
+</a>.<br>
+</body>
     <h2>Pescan.io (Web Scanner)</h2>
         <p>
         Explore, analyze, and uncover malware effortlessly with our online scanner. Built upon the powerful <b>4n4lDetector</b> engine, this enhanced version delivers advanced capabilities, improved performance, and superior extraction of Indicators of Compromise (IOCs) to strengthen malware detection and analysis.  
@@ -77,7 +81,7 @@ If you enjoy my work and would like to support me, please consider making a dona
 
   <h2>Legal Disclaimer</h2>
   <p>This software is provided "as is," without any warranties, either express or implied, including, but not limited to, warranties of merchantability or fitness for a particular purpose. The author shall not be held liable for any direct, indirect, incidental, or consequential damages arising from its use or inability to use it. Any use of the files that comprise the 4n4lDetector or 4n4lDetector Pro applications for purposes other than those intended requires the explicit authorization of the author.</p>
-  <p>The author reserves the right to disable or block the software at any time without prior notice or the right to refunds.</p>
+  <p>The author reserves the right to disable or block the software at any time without prior notice or the right to refunds. This software is distributed under a usage license, and if it is found to be leaked or shared through any public or private channel, it may be immediately disabled.</p>
   <p>By using this software, you acknowledge that you have read and fully understood this disclaimer.</p>
 
   <h2>License of Use</h2>
