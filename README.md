@@ -95,6 +95,9 @@ If you enjoy my work and would like to support me, please consider making a dona
    
 <h3>Some Images:</h3>
 
+![0](https://github.com/user-attachments/assets/72db3570-1117-417c-b99b-f0234e48e1bf)
+<br>
+
 ![1](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/e07ff8a6-eaaa-4783-a230-2ec41518f30b)
 <br>
 
@@ -114,6 +117,32 @@ If you enjoy my work and would like to support me, please consider making a dona
 <br>
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
+
+<h3>v3.4</h3>
+    [+] Optimized the string cleaner, improving overall analysis speed.<br>
+    [+] Performed a security review of the File Access execution extraction section.<br>
+    [+] Fixed a bug that could affect section reading from the DIE library.<br>
+    [+] Improved handling of errors related to corrupted section counts.<br>
+    [+] Enhanced error control when opening malformed files.<br>
+    [+] Replaced certain RVA values with "N/A" when required.<br>
+    [+] Filled detection of empty or out-of-range resource fragments with "N/A".<br>
+    [+] Fixed duplication of IP addresses detected in the IP Addresses module.<br>
+    [+] Reviewed and optimized string search functionality from the "Strings" button in the right panel.<br>
+    [+] Improved speed optimization and security controls for the Intelligent Strings module.<br>
+    [+] Enhanced buffer cleanup used in Exported Functions carving.<br>
+    [+] Optimized ASCII and NullByte character counting in the "Entropy/Recount" section.<br>
+    [+] Increased detection of multiple TLS callbacks (32/64-bit):<br>
+          &nbsp;&nbsp;&nbsp;-> Added pointer and indirection support.<br>
+          &nbsp;&nbsp;&nbsp;-> Introduced controlled heuristics.<br>
+          &nbsp;&nbsp;&nbsp;-> Provided complete RVA, VA, and section information.<br>
+    [+] Added a general optimization review and new features to the Flow Anomalies module:<br>
+          &nbsp;&nbsp;&nbsp;-> Added new detection of anomalous executable sections to the heuristic module.<br>
+          &nbsp;&nbsp;&nbsp;-> Added new detection of Exception Hooks to the heuristic module.<br>
+          &nbsp;&nbsp;&nbsp;-> Reduced the minimum extraction size for indirect jumps and calls to 100 bytes.<br>
+    [+] Added Highlighting with search functionality and color scaling based on criticality:<br>
+          &nbsp;&nbsp;&nbsp;-> Yellow: Important but non-critical findings; serves as a warning.<br>
+          &nbsp;&nbsp;&nbsp;-> Orange: Potential anomalies or suspicious behavior requiring investigation.<br>
+          &nbsp;&nbsp;&nbsp;-> Red: Evidence of malicious activity; requires prioritized review and deep analysis.<br>
 
 <h3>v3.3</h3>
     [+] Fixed an intermittent bug that could display the rotating "hacker" logo at the end of the first scan.<br>
