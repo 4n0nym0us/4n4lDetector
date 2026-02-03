@@ -98,22 +98,22 @@ If you enjoy my work and would like to support me, please consider making a dona
 ![0](https://github.com/user-attachments/assets/72db3570-1117-417c-b99b-f0234e48e1bf)
 <br>
 
+![ANti444](https://github.com/user-attachments/assets/a846c896-851b-41d8-b977-a0b6a6a94b06)
+<br>
+
 ![1](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/e07ff8a6-eaaa-4783-a230-2ec41518f30b)
 <br>
 
 ![2](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/cdb55872-b502-480c-82c6-ece6245ade9c)
-
 <br>
 
 ![5](https://github.com/4n0nym0us/4n4lDetector/assets/76454196/9742bbe8-bab5-49e7-9345-1d26b27b4dd9)
-    <br>
+<br>
         
  ![RESOURCES](https://user-images.githubusercontent.com/76454196/174343536-6832d5c2-b9b0-4fac-afc6-c31e9bc1617b.png)
-    <br>
+<br>
 
 ![RULES](https://user-images.githubusercontent.com/76454196/165567392-43a4393f-09e1-4de7-bf5c-85fafeb5718c.png)    
-        <br>
-![aEhI](https://user-images.githubusercontent.com/76454196/165567354-124a64e9-d6b7-445c-9fb7-d2855490b2ef.png)
 <br>
 
 <h2>It is recommended to delete the contents of the old 4n4lDetector directory to include the new version files.</h2>
